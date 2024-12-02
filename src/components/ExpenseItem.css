@@ -1,0 +1,27 @@
+/* src/components/ExpenseItem.css */
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-item__description {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .expense-item__price {
+    font-size: 1.25rem;
+    color: #4CAF50;
+  }
+  
+  .expense-item__date {
+    font-size: 0.85rem;
+    color: #888;
+  }
+  

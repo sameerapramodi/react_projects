@@ -1,0 +1,34 @@
+/* src/App.css */
+header {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+}
+
+form {
+  margin: 2rem;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f8f9fa;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 5px;
+}
+/* src/components/Header.css */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

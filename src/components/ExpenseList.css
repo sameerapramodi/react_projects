@@ -1,0 +1,20 @@
+/* src/components/ExpenseList.css */
+.expense-list {
+    list-style: none;
+    padding: 0;
+    margin: 2rem auto;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expense-list li {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .expense-list li:last-child {
+    border-bottom: none;
+  }
+  
